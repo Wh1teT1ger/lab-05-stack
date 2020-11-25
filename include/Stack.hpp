@@ -1,4 +1,4 @@
-// Copyright 2020 Your Name <your_email>
+// Copyright 2020 Burylov Denis <burylov01@mail.ru>
 
 #ifndef TEMPLATE_STACK_HPP
 #define TEMPLATE_STACK_HPP
