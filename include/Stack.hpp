@@ -1,7 +1,7 @@
 // Copyright 2020 Burylov Denis <burylov01@mail.ru>
 
-#ifndef INCLUDE__STACK_HPP
-#define INCLUDE__STACK_HPP
+#ifndef INCLUDE_STACK_HPP_
+#define INCLUDE_STACK_HPP_
 
 #include <cstddef>
 #include <utility>
@@ -102,4 +102,4 @@ size_t Stack<T>::size() const {
   return _size;
 }
 
-#endif  // INCLUDE__STACK_HPP
+#endif  // INCLUDE_STACK_HPP_
