@@ -1,9 +1,11 @@
 // Copyright 2020 Burylov Denis <burylov01@mail.ru>
 
-#ifndef TEMPLATE_STACK_HPP
-#define TEMPLATE_STACK_HPP
+#ifndef INCLUDE__STACK_HPP
+#define INCLUDE__STACK_HPP
 
 #include <cstddef>
+#include <utility>
+
 template <typename T>
 class Stack {
   struct Node {
@@ -100,4 +102,4 @@ size_t Stack<T>::size() const {
   return _size;
 }
 
-#endif  // TEMPLATE_STACK_HPP
+#endif  // INCLUDE__STACK_HPP
